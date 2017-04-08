@@ -1,0 +1,49 @@
+GIT Sistema de versionamiento
+
+Working Area =  entorno de searrollo								
+	git add
+Staging Area =  se prepara el codigo para ser veriosnado
+	git commit
+Repository   =  Linea de tiempo de las versiones en el repositorio
+//////////////////////////////////////////////////////////////////
+
+git --version
+git config --global user.name "Antonio Aguilar"
+git config --global user.mail "aguilarheredia87@gmail.com"
+git config --global user.ui true
+git config --global --list
+
+
+/////////////////////////////////////////////////////////////////
+git help = ayuda de los comandos
+git help comando = ayuda de los comandos
+git clear
+
+git init = crea una carpate .git
+git status = depliega el estado de la carpeta, en espera.
+git log = despliega el estado de las veriones
+
+git add = sube los archivos que estan listos para ser subidos
+git add -A = todos los archivos
+git add index.html
+	git status para verificar
+git commit -m "Cambios iniciales" 
+	git log = para desplegar la fecha y autor
+
+////////////////////////////////////////////////////////////////
+Versiones anteriores
+
+git log > commits.txt = guarda el log de los commits
+
+git checkout
+git checkout ID = para volver a los commits anteriores
+git checkout master = regresa al ultimo commit
+
+git reset --soft ID
+git reset --mix ID
+git reset --hard ID
+git reset
+
+
+
+
